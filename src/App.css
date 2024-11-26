@@ -111,3 +111,35 @@ li span:hover {
 .Toastify__toast--error {
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 90%; 
+    padding: 15px;
+  }
+
+  form {
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  form input{
+    width: 90%;
+  } 
+  form button {
+    width: 100%; 
+  }
+
+  li {
+    font-size: 14px; 
+    padding: 8px; 
+  }
+
+  li span {
+    font-size: 16px; 
+  }
+
+  h1 {
+    font-size: 1.5rem; 
+  }
+}
